@@ -4,9 +4,22 @@
    Author's custom styles
    ========================================================================== */
 
+.fixed-bg {
+    background-image: url("../img/UglyManBeautifulWoman.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
 
-
-
+.fiddler-title {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
 
 
 
